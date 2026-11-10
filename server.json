@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.bonum-ingenieria/bonum-supplier",
+  "title": "BONUM Servicios de Ingeniería — proveedor",
+  "description": "Catálogo, cobertura y cotización de BONUM: automatización, robótica, solar e IA en México.",
+  "websiteUrl": "https://bonum-ingenieria.com/",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bonum-ingenieria.com/mcp"
+    }
+  ]
+}
